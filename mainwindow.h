@@ -20,10 +20,17 @@ public:
 public slots:
     void updateInterface(int,int,int);
 
-private slots:
-    void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+private slots:
+    void on_slider_trem1_valueChanged(int value);
+
+    void on_slider_trem2_valueChanged(int value);
+
+    void on_slider_trem3_valueChanged(int value);
+
+    void on_slider_trem4_valueChanged(int value);
+
+    void on_slider_trem5_valueChanged(int value);
 
 private:
     Ui::MainWindow *ui;
