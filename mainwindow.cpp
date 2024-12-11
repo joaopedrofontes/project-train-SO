@@ -62,8 +62,8 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-void MainWindow::on_slider_trem1_valueChanged(int value)
-{
+
+void MainWindow::on_slider_trem1_valueChanged(int value){
     trem1->setVelocidade(200 - value);
 }
 

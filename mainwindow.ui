@@ -472,6 +472,103 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_trem1_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>450</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: blue}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem2_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>475</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem3_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>500</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: red}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem4_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>525</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: green}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem5_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>550</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: rgb(99, 69, 44)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_trem1_2</zorder>
+   <zorder>label_trem4_2</zorder>
+   <zorder>label_trem2_2</zorder>
+   <zorder>label_trem3_2</zorder>
+   <zorder>label_trem5_2</zorder>
    <zorder>slider_trem1</zorder>
    <zorder>label_trilho3_4</zorder>
    <zorder>label_trilho1_2</zorder>
